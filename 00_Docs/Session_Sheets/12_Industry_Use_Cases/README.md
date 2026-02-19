@@ -12,43 +12,9 @@
 - [How People Use ChatGPT ](https://openai.com/index/how-people-are-using-chatgpt/)(Sept 2025)
 - [Anthropic Economic Index report](https://www.anthropic.com/research/anthropic-economic-index-september-2025-report) (Sept 2025)
 
-# 🗺️ Overview
-
-Welcome to the middle of the course!  We’re 5 weeks in, and we’ve covered a lot of ground - you all certainly have enough prototyping skill to be dangerous!
-
-It’s time to align the skills we’ve learned with the specific direction that _you’re aiming at_.
-
-What are your goals for 2026? How can you build 🏗️, ship 🚢, and share 🚀 your way towards achieving them?
-
-The Certification Challenge invites you to take a step towards them.
-
-> 💡 Remember, *you know enough already to be dangerous*. You already know enough of the concepts and code you need to build, ship, and share production AI applications
-
-It's time to put your skills to the test!
-
-# Setting Expectations
-
-During Cohort 8, here is how the numbers shook out. It took an average of 26.2 hours for people to complete the challenge. This is up slightly from 23.2 hours on average in Cohort 7.
-
-<p align="center">
-  <img src="ccChart.webp" width="80%" />
-</p>
-
-This type of work, though - scoping a problem, creating a solution to that problem that solves a specific pain point for real customers or stakeholders, and engineering it for scale from day 1, is extremely valuable work. **This kind of pilot project work is easily worth $10-20k for as a solo consultant**. Of course, finding the right buyer and getting them to buy is a separate issue...
-
-It is also the kind of work that, after you take a few shots on goal, will become faster and faster for you to knock out.
-
-Finally, it’s worth noting that [Certified AI Engineers](https://aimakerspace.io/graduates/) not only are at the top of hiring lists within our network, but many of them have started their own startups or solo consultancies and still collaborate with us when it comes to generating new business, hiring talent, and serving as enterprise trainers.
-
-What is in your future as an AI Engineer or AI Engineering Leader?
-
-Whatever it is, it will start with the first question of The Certification Challenge: What are you building, and why?
-
-But what should you build today, and why?
-
 # What Not To Build
 
-The first way to answer a "what should you do" question is to answer its logical opposite.
+What should you build today, and why? The first way to answer a "what should you do" question is to answer its logical opposite. It's much easier...
 
 You should NOT:
 
