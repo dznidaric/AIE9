@@ -15,6 +15,22 @@
 - A **written document** addressing each deliverable and answering each question
 - All relevant code
 
+You must complete each of the following tasks:
+
+## 🧱 Task Roadmap
+
+> Each task ends with a concrete deliverable.
+
+| Task | Outcome |
+|------|---------|
+| 🧩 1. Problem + Audience | Clear user + success criteria |
+| 💡 2. Solution | Proposed system + UX flow |
+| 🔐 3. Data + Keys | Data source + API access working |
+| 🤖 4. Prototype | End-to-end agentic RAG running |
+| 🧪 5. Eval Baseline | Synthetic set + baseline score |
+| 🧠 6. Retriever Upgrade | Improved metrics + analysis |
+| 🎬 7. Next Steps | Towards polished Demo Day |
+
 # 🗺️ Overview
 
 Welcome to the middle of the course!  We’re 5 weeks in, and we’ve covered a lot of ground - you all certainly have enough prototyping skill to be dangerous!
@@ -90,7 +106,7 @@ Once you know the problem to be solved, you must be capable of guiding your team
 2. Write 1-2 paragraphs on why this is a problem for your specific user
 3. Create a list of questions or input-output pairs that you can use to evaluate your application
 
-### Task 2:** Articulate your proposed solution**
+### Task 2: Articulate your proposed solution
 
 Now that you’ve defined a problem and a user, *there are many possible solution implementations.*
 
