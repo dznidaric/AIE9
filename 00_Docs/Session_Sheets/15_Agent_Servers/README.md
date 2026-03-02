@@ -10,11 +10,6 @@
 Deployment: [LangSmith Deployment](https://docs.langchain.com/langsmith/deployments)
 
 Requires $30-40/month
-
-## 📛 Required Tooling & Account Setup
-In addition to the tools we've already learned, in this session you'll need:
-    
-1. Create a blah blah blah account
    
 ## 📜 Recommended Reading
 - [LangSmith Deployment components](https://docs.langchain.com/langsmith/components)
