@@ -69,6 +69,11 @@ Have fun!
 What is the key architectural difference between the `simple_agent` and `agent_with_helpfulness` graphs? Specifically, explain how the helpfulness evaluation loop works and what mechanisms are in place to prevent it from running indefinitely.
 
 ##### Answer:
+The key architectural difference is that simple_agent has one control loop, while agent_with_helpfulness has two layers of control.
+
+**simple_agent** is the standard agent pattern: the model generates a response, perhaps call tools, then returns to the model, and this repeats until the model stops requesting tools. In other words, its loop is about tool use.
+
+**agent_with_helpfulness** keeps that basic tool-calling behavior, but adds a second decision step after the agent produces an answer: a helpfulness evaluator checks whether the answer is good enough. If the answer is judged unhelpful, the graph routes execution back into the agent so it can try again, usually with the prior attempt and evaluator feedback in state. So its extra loop is about answer quality, not just tool execution.
 
 
 
@@ -76,6 +81,8 @@ What is the key architectural difference between the `simple_agent` and `agent_w
 What is the role of `langgraph.json` in the LangGraph Deployments? Describe each of its key fields and how the platform uses this file to discover and serve your graphs.
 
 ##### Answer:
+`langgraph.json` is the deployment manifest for a LangGraph app. The platform reads it to understand what code to load, what environment to build, and which named graphs/assistants to expose through the Agent Server API. 
+LangChain’s docs describe it as the configuration file that specifies dependencies, graphs, environment variables, and other deployment settings, and note that the CLI looks for a file named langgraph.json in the current directory by default.
 
 
 
