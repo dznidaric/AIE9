@@ -83,7 +83,9 @@ What is the difference between serverless and dedicated endpoints?
 
 #### ✅ Answer:
 
-_(insert your answer here)_
+Serverless endpoints let's us use a model immediately on shared infrastructure. There is no deployment required, and payment is only for the made requests, but performance can vary due to shared resources and possible queueing.
+
+Dedicated (on-demand) endpoints requires deploying own instance of the model on reserved GPUs. This provides guaranteed capacity and more consistent latency, but need to pay for the running deployment even when it’s idle.
 
 ### ❓ Question #2:
 
@@ -91,7 +93,7 @@ Why is it important to consider token throughput and latency when choosing an LL
 
 #### ✅ Answer:
 
-_(insert your answer here)_
+For user-facing applications like chatbots or assistants, slow latency or low throughput can make the system feel unresponsive, leading to poor usability and user frustration. Choosing a model with good performance helps ensure fast, smooth, and interactive responses.
 
 ## Activity 1: RAGAS Evaluation with Cost Analysis
 
